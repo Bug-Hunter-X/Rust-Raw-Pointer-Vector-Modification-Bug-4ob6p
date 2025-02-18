@@ -1,0 +1,2 @@
+# Rust Raw Pointer Vector Modification Bug
+This repository demonstrates a common error in Rust: modifying a vector through a raw pointer after the vector's ownership has changed.  The original code attempts to modify the vector using a raw pointer, which results in undefined behavior. The solution shows how to use safe Rust techniques to avoid this problem.
